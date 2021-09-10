@@ -1,5 +1,6 @@
 # Battleship game
 ![image](screenshot.png)
+
 Simple one-way game, written in Javascript.
 Ships generating in random location.
 Classic rule placement: ship can't be connected by any side or corner.
