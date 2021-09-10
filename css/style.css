@@ -1,0 +1,77 @@
+html {
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+
+    background-color: #224;
+    color: #ccc;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.main {
+    max-width: 600px;
+    margin: auto;
+}
+
+#title, #status, #board, table, #buttons {
+    margin: auto;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+} 
+td, tr {
+    border-collapse: collapse;
+    padding: 0;
+    margin: 0;
+}
+
+table td {
+    border-collapse: collapse;
+}
+.head-row, .head-col {
+    border: 0;
+}
+
+.hit {
+    background-color: yellow;
+}
+
+.sunk {
+    background-color: #3e2244;
+}
+
+.miss {
+    background-color: blue;
+}
+
+#buttons {
+    padding-top: 16px;
+}
+
+canvas {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
